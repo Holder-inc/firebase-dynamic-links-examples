@@ -1,0 +1,3 @@
+[submodule "submodules/flutterfire"]
+	path = submodules/flutterfire
+	url = https://github.com/firebase/flutterfire.git
