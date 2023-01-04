@@ -3,7 +3,7 @@
 ## Getting Started
 
 ```
-$ git clone https://github.com/Holder-inc/firebase-dynamic-links-examples.git
+$ git clone --recursive https://github.com/Holder-inc/firebase-dynamic-links-examples.git
 ```
 
 ## Reproduce Example Packages
