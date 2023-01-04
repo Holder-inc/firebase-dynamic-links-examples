@@ -8,6 +8,21 @@ $ git clone --recursive https://github.com/Holder-inc/firebase-dynamic-links-exa
 
 ## Reproduce Example Packages
 
+### submodule
+
+```
+$ mkdir submodules
+$ git submodule add https://github.com/firebase/flutterfire.git ./submodules/flutterfire
+```
+
+### Symbolic Links
+
+```
+$ mkdir examples
+$ cd examples
+$ ln -sfn ../submodules/flutterfire/packages/firebase_dynamic_links/firebase_dynamic_links/example/ ./example
+```
+
 ### flutter create
 
 ```
