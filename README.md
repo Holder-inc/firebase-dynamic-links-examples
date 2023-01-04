@@ -28,9 +28,6 @@ $ ln -sfn ../submodules/flutterfire/packages/firebase_dynamic_links/firebase_dyn
 ```
 $ flutter create -i swift --org=io.flutter.plugins.firebase.dynamiclinksexample ./dynamiclinksexample_flutterfire_swift
 $ flutter create -i objc --org=io.flutter.plugins.firebase.dynamiclinksexample ./dynamiclinksexample_flutterfire_objc
-
-$ flutter create -i swift --org=com.emotion-recycle.emotion-recycle ./dynamiclinksexample_emotion_recycle_swift
-$ flutter create -i objc --org=com.emotion-recycle.emotion-recycle ./dynamiclinksexample_emotion_recycle_objc
 ```
 
 
@@ -42,8 +39,10 @@ $ flutter create -i objc --org=com.emotion-recycle.emotion-recycle ./dynamiclink
 - GoogleService-Info.plist
 - Runner.entitlements
 - Podfile
+- Info.plist
 
 ### flutter
 
 - firebase_options.dart
 - main.dart
+- pubspec.yaml
